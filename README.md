@@ -87,7 +87,7 @@ chmod +x install.sh
 
 ## Authors
 
-**Alexandre Figueiredo** - *Initial work* - [alexfgrdo](https://github.com/alexfgrdo)
+**Alexandre Figueiredo** - *Initial work* - [thelittlebigbot](https://github.com/thelittlebigbot)
 
 ## License
 
