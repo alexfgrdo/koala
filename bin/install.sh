@@ -8,11 +8,11 @@ cat ../src/info.txt
 
 echo "[*] Koala Toolkit Installer"
 
-echo "[*] Git clone alexfgrdo/koala"
-git clone https://github.com/alexfgrdo/koala.git $DIR
+echo "[*] Git clone theilttlebigbot/koala"
+git clone https://github.com/thelittlebigbot/koala.git $DIR
 
 echo "[*] Install scripts in /usr/local/bin/"
 chmod +x $KOALA && ln -sf $KOALA $BIN
 
 echo "[*] Build"
-docker build --rm --no-cache -t alexfgrdo/koala $DIR/
+docker build --rm --no-cache -t thelittlebigbot/koala $DIR/

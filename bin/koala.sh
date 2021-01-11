@@ -5,12 +5,12 @@ DIR=$HOME/.koala
 # Run
 if [ "$1" ]; then
   cat $DIR/src/info.txt
-  docker run --rm -h koala -it alexfgrdo/koala /bin/bash
+  docker run --rm -h koala -it thelittlebigbot/koala /bin/bash
 
 # Build
 elif [ "$1" == "-b" ]; then
   cat $DIR/src/info.txt
-  docker build --rm --no-cache -t alexfgrdo/koala $DIR/
+  docker build --rm --no-cache -t thelittlebigbot/koala $DIR/
 
 # Edit
 elif [ "$1" == "-e" ]; then
@@ -23,18 +23,18 @@ elif [ "$1" == "-h" ]; then
 
 # Kill
 elif [ "$1" == "-k" ]; then
-  docker container kill alexfgrdo/koala
+  docker container kill thelittlebigbot/koala
 
 # Remove container
 elif [ "$1" == "-r" ]; then
-  docker container kill alexfgrdo/koala
-  docker container rm alexfgrdo/koala
+  docker container kill thelittlebigbot/koala
+  docker container rm thelittlebigbot/koala
 
 # Remove container and image
 elif [ "$1" == "-R" ]; then
-  docker container kill alexfgrdo/koala
-  docker container rm alexfgrdo/koala
-  docker image rm alexfgrdo/koala
+  docker container kill thelittlebigbot/koala
+  docker container rm thelittlebigbot/koala
+  docker image rm thelittlebigbot/koala
 
 # Upgrade
 elif [ "$1" == "-u" ]; then
