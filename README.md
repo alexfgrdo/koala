@@ -16,7 +16,7 @@ An amazing bug bounty toolkit for Docker.
 ### Installation
 
 ```
-git clone https://github.com/thelittlebigbot/koala.git
+git clone https://github.com/lxndrfgrd/koala.git
 cd koala/bin/
 chmod +x install.sh
 ./install.sh
@@ -87,7 +87,7 @@ chmod +x install.sh
 
 ## Authors
 
-**Alexandre Figueiredo** - _Initial work_ - [thelittlebigbot](https://github.com/thelittlebigbot)
+**Alexandre Figueiredo** - _Initial work_ - [lxndrfgrd](https://github.com/lxndrfgrd)
 
 ## License
 
