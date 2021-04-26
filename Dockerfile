@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 
-LABEL maintainer="Alexandre Figueiredo, thelittlebigbot <thelittlebigbot@gmail.com>"
+LABEL maintainer="Alexandre Figueiredo, lxndrfgrd <lxndrfgrd@outlook.com>"
 
 ENV HOME /root
 WORKDIR /root
