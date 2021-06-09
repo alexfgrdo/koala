@@ -9,9 +9,9 @@ cat ../src/info.txt
 echo "[*] Koala Toolkit Uninstaller"
 
 echo "[*] Remove containers and image"
-docker container kill lxndrfgrd/koala
-docker container rm lxndrfgrd/koala
-docker image rm lxndrfgrd/koala
+docker container kill afigueir/koala
+docker container rm afigueir/koala
+docker image rm afigueir/koala
 docker image rm kalilinux/kali-rolling
 
 echo "[*] Remove all scripts and directories"
